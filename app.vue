@@ -10,6 +10,10 @@
 const isModalOpen = ref(false);
 
 const openModal = () => {
+  if (isModalOpen.value) {
+    console.warn("Modal is already open");
+    return;
+  }
   isModalOpen.value = true;
 }
 
