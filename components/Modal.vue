@@ -9,7 +9,7 @@
           This is Modal
         </h2>
         <p class="text-gray-700">
-          Paragraph text in the modal
+          {{ username || "Unknown user" }}
         </p>
       </div>
     </div>
@@ -20,6 +20,11 @@
 const props = defineProps({
   visible: {
     type: Boolean,
+    required: true
+  },
+
+  username: {
+    type: String,
     required: true
   }
 });
