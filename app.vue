@@ -6,6 +6,7 @@
     <Modal v-model:visible="isModalOpen" :username="getUsername()" />
   </div>
 </template>
+
 <script setup lang="ts">
 const isModalOpen = ref(false);
 
