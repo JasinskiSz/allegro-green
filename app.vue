@@ -17,8 +17,9 @@ const openModal = () => {
   isModalOpen.value = true;
 }
 
+// fetch username from a function
 const getUsername = (): string => {
-  const username = "Szymon Jasiński";
+  const username = "Szymon Jasiński"; // Mocked username, replace with fetch from API or other source
   if (!username || typeof username !== "string") {
     console.error("Invalid username detected");
     return "Unknown user";
