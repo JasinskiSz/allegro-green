@@ -21,7 +21,7 @@
         </div>
       </div>
       <button type="submit"
-        class="uppercase flex justify-center items-center self-stretch bg-[var(--tailwind-v-400-indigo-600,#4F39F6)] py-0 px-3 text-[var(--tailwind-v-400-white,#FFF)] font-[Poppins] text-[1rem] font-bold not-italic">
+        class="flex justify-center items-center self-stretch bg-[var(--tailwind-v-400-indigo-600,#4F39F6)] py-0 px-3 text-[var(--tailwind-v-400-white,#FFF)] font-[Poppins] text-[1rem] font-bold not-italic">
         Szukaj
       </button>
     </form>
