@@ -2,6 +2,11 @@
 --tailwind-v-400-green-600: #00A63E;
 --tailwind-v-400-white: #fff;
 --tailwind-v-400-black: #000;
+--tailwind-v-400-indigo-600: #4F39F6;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
 }
 
 @font-face {
