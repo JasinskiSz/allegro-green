@@ -1,10 +1,11 @@
 <template>
-  <div>
-    <button @click="openModal" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      open modal
-    </button>
-    <Modal v-model:visible="isModalOpen" :username="getUsername()" />
-  </div>
+  <SHero header="Zielone zakupy, lepszy świat"
+    paragraph="Oferujemy produkty eco, lokalne i zrównoważone. Zacznij zmieniać świat już dziś!"
+    button="Przeglądaj produkty" />
+  <button @click="openModal" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+    open modal
+  </button>
+  <Modal v-model:visible="isModalOpen" :username="getUsername()" />
 </template>
 <script setup lang="ts">
 const isModalOpen = ref(false);
